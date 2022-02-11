@@ -133,5 +133,7 @@ differentialDrive1.setMaxOutput(1.0);
     public void my_DriveTank(double leftSpeed, double rightSpeed){
         differentialDrive1.tankDrive(leftSpeed, rightSpeed);
     }
+
+    //Add an encoder
 }
 
