@@ -1,0 +1,71 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon FX[0]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[1]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[2]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Drivetrain": "Subsystem",
+      "/LiveWindow/Drivetrain/Differential Drive 1": "DifferentialDrive",
+      "/LiveWindow/FrontElevator": "Subsystem",
+      "/LiveWindow/Intake": "Subsystem",
+      "/LiveWindow/RearElevator": "Subsystem",
+      "/LiveWindow/Shooter": "Subsystem",
+      "/LiveWindow/Susan": "Subsystem",
+      "/LiveWindow/Tower": "Subsystem",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/SmartDashboard/Auto Mode": "String Chooser",
+      "/SmartDashboard/Autonomous Command": "Command",
+      "/SmartDashboard/Drivetrain": "Subsystem",
+      "/SmartDashboard/FrontElevator": "Subsystem",
+      "/SmartDashboard/FrontElevatorRun: Dw_FrontElevatorSetPoint": "Command",
+      "/SmartDashboard/FrontElevatorRun: Up_FrontElevatorSetPoint": "Command",
+      "/SmartDashboard/Intake": "Subsystem",
+      "/SmartDashboard/IntakeRun: Eject_Setpoint": "Command",
+      "/SmartDashboard/IntakeRun: In_Setpoint": "Command",
+      "/SmartDashboard/Joystick Button 12": "Command",
+      "/SmartDashboard/Joystick Button 13": "Command",
+      "/SmartDashboard/Joystick Button 2": "Command",
+      "/SmartDashboard/Joystick Button 3": "Command",
+      "/SmartDashboard/Joystick Button 4": "Command",
+      "/SmartDashboard/Joystick Button 5": "Command",
+      "/SmartDashboard/Joystick Button 8": "Command",
+      "/SmartDashboard/Joystick Button 9": "Command",
+      "/SmartDashboard/RearElevator": "Subsystem",
+      "/SmartDashboard/RearElevatorRun: Dw_RearElevatorSetPoint": "Command",
+      "/SmartDashboard/RearElevatorRun: Up_RearElevatorSetPoint": "Command",
+      "/SmartDashboard/Shooter": "Subsystem",
+      "/SmartDashboard/ShooterRun: Hi_ShooterSetpoint": "Command",
+      "/SmartDashboard/ShooterRun: Low_ShooterSetPoint": "Command",
+      "/SmartDashboard/Susan": "Subsystem",
+      "/SmartDashboard/SusanSpin: CCW_SusanSetPoint": "Command",
+      "/SmartDashboard/SusanSpin: CW_SusanSetPoint": "Command",
+      "/SmartDashboard/Tower": "Subsystem",
+      "/SmartDashboard/TowerRun: Dw_TowerSetPoint": "Command",
+      "/SmartDashboard/TowerRun: Up_TowerSetPoint": "Command",
+      "/SmartDashboard/Xbox Button 1": "Command",
+      "/SmartDashboard/Xbox Button A": "Command",
+      "/SmartDashboard/Xbox Button B": "Command",
+      "/SmartDashboard/Xbox Button _LB": "Command",
+      "/SmartDashboard/Xbox Button _RB": "Command",
+      "/SmartDashboard/autodrive: fwd": "Command",
+      "/SmartDashboard/autoshoot: shootball": "Command"
+    }
+  }
+}

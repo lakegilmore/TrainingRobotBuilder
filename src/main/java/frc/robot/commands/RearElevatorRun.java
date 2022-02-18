@@ -55,11 +55,13 @@ public class RearElevatorRun extends CommandBase {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
+        m_rearElevator.my_RunRearElevator(m_my_RearElevatorRun);
     }
 
     // Called once the command ends or is interrupted.
     @Override
     public void end(boolean interrupted) {
+        m_rearElevator.my_RunRearElevator(0.0);
     }
 
     // Returns true when the command should end.
