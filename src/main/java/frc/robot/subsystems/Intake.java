@@ -63,6 +63,8 @@ victorSPX1 = new WPI_VictorSPX(4);
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-
+    public void my_RunIntake(double speed){
+            victorSPX1.set(speed);
+    }
 }
 

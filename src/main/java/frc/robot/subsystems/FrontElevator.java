@@ -63,6 +63,10 @@ victorSPX1 = new WPI_VictorSPX(7);
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
+    public void my_RunFrontElevator(double speed){
+        victorSPX1.set(speed);
+        
+    }
 
 }
 

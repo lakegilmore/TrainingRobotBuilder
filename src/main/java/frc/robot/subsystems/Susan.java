@@ -63,6 +63,9 @@ victorSPX1 = new WPI_VictorSPX(5);
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
+    public void my_RunSusan(double speed){
+        victorSPX1.set(speed);
+    }
 
 }
 

@@ -18,7 +18,8 @@ public class SequentialCommandGroup1 extends SequentialCommandGroup {
     // addCommands(new FooCommand(), new BarCommand());
     addCommands(
       new DriveDistance(10, .5, 0.0, drivetrain).withTimeout(5),
-      new RearElevatorRun(.2,rearElevator).withTimeout(3)
+      new RearElevatorRun(.2,rearElevator).withTimeout(3),
+      new DriveDistance(-10, .5, 0.0,drivetrain).withTimeout(5)
       
       );
   }

@@ -63,6 +63,9 @@ victorSPX2 = new WPI_VictorSPX(6);
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
+    public void my_RunTower(double speed){
+        victorSPX2.set(speed);
+    }
 
 }
 
