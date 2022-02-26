@@ -61,7 +61,7 @@ private double kGearRation = 10.45;
 leftMaster = new WPI_TalonFX(0);
 leftMaster.configFactoryDefault();
 leftMaster.configSelectedFeedbackSensor(FeedbackDevice.IntegratedSensor);
-leftMaster.setInverted(false);
+leftMaster.setInverted(true);
 leftMaster.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
@@ -76,7 +76,7 @@ leftMaster.setStatusFramePeriod(StatusFrameEnhanced.Status_2_Feedback0, 20);
 leftSlave = new WPI_TalonFX(1);
 leftSlave.configFactoryDefault();
 leftSlave.configSelectedFeedbackSensor(FeedbackDevice.IntegratedSensor);
-leftSlave.setInverted(false);
+leftSlave.setInverted(true);
 leftSlave.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
@@ -98,7 +98,7 @@ rightMaster.configFactoryDefault();
 rightMaster.configSelectedFeedbackSensor(FeedbackDevice.IntegratedSensor);
 
         /* Invert Motor? and set Break Mode */
-rightMaster.setInverted(true);
+rightMaster.setInverted(false);
 rightMaster.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
@@ -116,7 +116,7 @@ rightSlave = new WPI_TalonFX(3);
 rightSlave.configFactoryDefault();
 rightSlave.configSelectedFeedbackSensor(FeedbackDevice.IntegratedSensor);
         /* Invert Motor? and set Break Mode */
-rightSlave.setInverted(true);
+rightSlave.setInverted(false);
 rightSlave.setNeutralMode(NeutralMode.Coast);
 
         /* Set the peak and nominal outputs */
